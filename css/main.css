@@ -1,0 +1,164 @@
+* {
+    padding: 0;
+    margin: 0;   
+}
+
+html, body {
+    height:100%; 
+    width:100%; 
+}
+
+a {
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #42DCA3;
+}
+
+a:focus, a:hover {
+  text-decoration: none;
+  color: #1d9b6c;
+}
+
+
+#mainNav {
+  font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  margin-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  background-color: black;
+}
+
+#mainNav .navbar-toggler {
+  font-size: 14px;
+  padding: 11px;
+  color: white;
+  border: 1px solid white;
+}
+
+#mainNav .navbar-brand {
+  font-weight: 700;
+}
+
+#mainNav a {
+  color: white;
+}
+
+#mainNav .navbar-nav .nav-item {
+  -webkit-transition: background 0.3s ease-in-out;
+  -moz-transition: background 0.3s ease-in-out;
+  transition: background 0.3s ease-in-out;
+}
+
+#mainNav .navbar-nav .nav-item:hover {
+  color: fade(white, 80%);
+  outline: none;
+  background-color: transparent;
+}
+
+#mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
+  outline: none;
+  background-color: transparent;
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    -moz-transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    transition: background 0.3s ease-in-out, padding-top 0.3s ease-in-out, padding-bottom 0.3s;
+    letter-spacing: 1px;
+    border-bottom: none;
+    background: transparent;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+    background: black;
+  }
+  #mainNav .nav-link.active {
+    outline: none;
+    background-color: rgba(255, 255, 255, 0.3);
+  }
+  #mainNav .nav-link.active:hover {
+    color: white;
+  }
+}
+
+
+
+
+.full-width {
+    width: 100%;
+    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.main-heading{
+    color: white;
+    font-size: 80px;
+    letter-spacing: 5px;
+}
+
+.small-heading{
+    color: white;
+    font-size: 30px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    /*-o-background-size: cover;*/
+}
+
+.carousel,
+.carousel-inner {
+    width:100%;
+    height:100%;
+    z-index:0;
+    overflow:hidden;
+    display: block;
+    transition: none;
+}
+
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.overlay{
+    display: block;
+    width: 100%;
+    background-color: black;
+    opacity: 0.2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
