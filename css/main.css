@@ -5,8 +5,21 @@
 
 html, body {
     height:100%; 
-    width:100%; 
+    width:100%;
+    font-family: 'Lato';
 }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Catamaran';
+    font-weight: 800;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+
 
 a {
   -webkit-transition: all 0.2s ease-in-out;
@@ -18,6 +31,16 @@ a {
 a:focus, a:hover {
   text-decoration: none;
   color: #1d9b6c;
+}
+
+.nopadding {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+.row-section {
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
 
 
@@ -92,7 +115,7 @@ a:focus, a:hover {
 
 .full-width {
     width: 100%;
-    font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    /*font-family: 'Cabin', 'Helvetica Neue', Helvetica, Arial, sans-serif;*/
 }
 
 .main-heading{
@@ -161,4 +184,27 @@ a:focus, a:hover {
     right: 0;
     bottom: 0;
 }
+
+.image-links .overlay:hover{
+    background-color: pink;
+    opacity: 0.8;
+}
+
+.about-bg {
+    position: relative;
+    min-height: 320px;
+    background-size: cover;
+}
+
+.about p {
+    font-size: 15px;
+}
+
+.about img {
+    max-width: 300px;
+    padding: 30px;
+}
+
+
+
 
