@@ -33,6 +33,14 @@ a:focus, a:hover {
   color: #1d9b6c;
 }
 
+.bg-black {
+    background-color: black;
+}
+
+.bg-white {
+    background-color: white;
+}
+
 .nopadding {
     margin: 0 !important;
     padding: 0 !important;
