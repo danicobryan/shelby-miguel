@@ -185,9 +185,19 @@ a:focus, a:hover {
     bottom: 0;
 }
 
-.image-links .overlay:hover{
-    background-color: pink;
-    opacity: 0.8;
+
+.nopadding .item {
+    position: relative;
+    overflow: hidden;
+}
+
+.image-link {
+    max-width: 100%;
+    transition: transform .5s;
+}
+
+.image-link:hover{
+    transform: scale(1.2);
 }
 
 .about-bg {
