@@ -37,6 +37,16 @@ a:focus, a:hover {
     background-color: black;
 }
 
+.bg-black h1,
+.bg-black h2,
+.bg-black h3,
+.bg-black h4,
+.bg-black h5,
+.bg-black h6,
+.bg-black p {
+    color: white;
+}
+
 .bg-white {
     background-color: white;
 }
@@ -223,10 +233,13 @@ a:focus, a:hover {
     padding: 30px;
 }
 
+.performance-clips h4{
+    margin:0;
+    padding:0;
+}
 
-
-.performance-clips iframe {
-    padding: 30px;
+.embed-responsive {
+    padding-bottom: 30px;
 }
 
 
