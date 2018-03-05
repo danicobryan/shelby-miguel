@@ -19,7 +19,7 @@ p {
 }
 
 
-
+/*
 
 a {
   -webkit-transition: all 0.2s ease-in-out;
@@ -30,7 +30,15 @@ a {
 
 a:focus, a:hover {
   text-decoration: none;
-  color: #1d9b6c;
+  color: pink;
+}*/
+
+a:hover {
+    color: white;
+}
+
+a:hover {
+    color: pink;
 }
 
 .bg-black {
@@ -49,6 +57,16 @@ a:focus, a:hover {
 
 .bg-white {
     background-color: white;
+}
+
+.bg-white h1,
+.bg-white h2,
+.bg-white h3,
+.bg-white h4,
+.bg-white h5,
+.bg-white h6,
+.bg-white p {
+    color: black;
 }
 
 .nopadding {
@@ -83,6 +101,11 @@ a:focus, a:hover {
 
 #mainNav a {
   color: white;
+}
+
+#mainNav a:hover {
+  color: pink;
+  text-decoration: underline;
 }
 
 #mainNav .navbar-nav .nav-item {
@@ -124,7 +147,7 @@ a:focus, a:hover {
     background-color: rgba(255, 255, 255, 0.3);
   }
   #mainNav .nav-link.active:hover {
-    color: white;
+    color: pink;
   }
 }
 
@@ -242,6 +265,39 @@ a:focus, a:hover {
     padding-bottom: 30px;
 }
 
+.gallery .container {
+    padding: 30px;
+
+    border-radius: 25px;
+}
+
+.gallery {
+    padding: 30px;
+}
+
+.gal {
+    
+    
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+      
+    
+    }   
+    .gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+        
+        .gal {
+    
+    
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+      
+    
+    }
+        
+    }
 
 
 
