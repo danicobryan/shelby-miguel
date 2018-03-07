@@ -227,6 +227,18 @@ a:hover {
 }
 
 
+@media(max-width: 768px) {
+    .main-heading {
+        font-size: 45px;
+    }
+
+    .small-heading {
+        font-size: 15px;
+    }
+}
+
+
+
 .nopadding .item {
     position: relative;
     overflow: hidden;
