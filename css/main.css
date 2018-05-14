@@ -1,10 +1,10 @@
 * {
     padding: 0;
-    margin: 0;   
+    margin: 0;
 }
 
 html, body {
-    height:100%; 
+    height:100%;
     width:100%;
     font-family: 'Lato';
 }
@@ -187,7 +187,7 @@ a:hover {
 
 .main-heading{
     color: white;
-    font-size: 80px;
+    font-size: 68px;
     letter-spacing: 5px;
 }
 
@@ -200,7 +200,7 @@ a:hover {
 
 .carousel-caption {
     position: absolute;
-    top: 0;
+    /*top: 0;*/
     display: -webkit-box;
     display: -moz-box;
     display: -ms-flexbox;
@@ -211,7 +211,9 @@ a:hover {
     -ms-flex-align: center;
     -webkit-align-items: center;
     align-items: center;
-    height: 100%;
+    height: 53%;
+
+    bottom: 0;
 }
 
 .fill {
@@ -284,7 +286,7 @@ a:hover {
         transform:         translateY(5px)
     }
 }
-.bounce-wrapper i {  
+.bounce-wrapper i {
   -webkit-animation-duration: 2s;
   animation-duration: 2s;
   -webkit-animation-fill-mode: both;
@@ -353,28 +355,25 @@ a:hover {
 }
 
 .gal {
-    
-    
+
+
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
     -moz-column-count: 3; /* Firefox */
     column-count: 3;
-      
-    
-    }   
+
+
+    }
     .gal img{ width: 100%; padding: 7px 0;}
 @media (max-width: 500px) {
-        
+
         .gal {
-    
-    
+
+
     -webkit-column-count: 1; /* Chrome, Safari, Opera */
     -moz-column-count: 1; /* Firefox */
     column-count: 1;
-      
-    
-    }
-        
+
+
     }
 
-
-
+    }
