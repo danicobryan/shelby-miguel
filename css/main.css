@@ -213,6 +213,10 @@ a:hover {
     bottom: 0;
 }
 
+.link-caption {
+    height: 100% !important;
+}
+
 .fill {
     width: 100%;
     height: 100%;
