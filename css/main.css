@@ -65,8 +65,6 @@ a:hover {
   border-radius: 5rem;
 }
 
-
-
 .bg-black {
     background-color: black;
 }
@@ -107,6 +105,10 @@ a:hover {
 .bg-pink h6,
 .bg-pink p {
     color: white;
+}
+
+.bg-off-white {
+  background-color: #ececec;
 }
 
 .nopadding {
