@@ -95,6 +95,20 @@ a:hover {
     color: black;
 }
 
+.bg-pink {
+  background-color:#ee0979;
+}
+
+.bg-pink h1,
+.bg-pink h2,
+.bg-pink h3,
+.bg-pink h4,
+.bg-pink h5,
+.bg-pink h6,
+.bg-pink p {
+    color: white;
+}
+
 .nopadding {
     margin: 0 !important;
     padding: 0 !important;
@@ -377,4 +391,21 @@ a:hover {
 
     }
 
-    }
+  }
+
+  .quote {
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-size: 40px;
+  }
+
+  .image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+}
+
+.image-box:hover img {
+    transform: scale(1.1);
+}
