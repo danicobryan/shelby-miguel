@@ -141,6 +141,7 @@ a:hover {
   font-weight: 700;
 }
 
+
 #mainNav a {
   color: white;
 }
@@ -410,4 +411,8 @@ a:hover {
 
 .image-box:hover img {
     transform: scale(1.1);
+}
+
+.resume img {
+  min-width: 90%;
 }
