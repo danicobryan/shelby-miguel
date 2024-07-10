@@ -322,7 +322,9 @@ a:hover {
   color: pink;
 }
 
-
+.bio-photo{
+  max-width: 90%;
+}
 
 .nopadding .item {
     position: relative;
